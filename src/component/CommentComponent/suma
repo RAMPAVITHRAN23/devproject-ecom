@@ -1,0 +1,45 @@
+// import { useState } from "react";
+
+// const CommentComponent = () => {
+//     const [name, setName] = useState(""); // Directly storing the name as a string
+//     const [message, setMessage] = useState(""); // Directly storing the message as a string
+//     const [data, setData] = useState({}); // To store both name and message on submit
+
+//     return (
+//         <>
+//             <p>JSX</p>
+//             <input
+//                 className="border border-spacing-0 border-blue-900 w-100"
+//                 type="text"
+//                 placeholder="Enter your name"
+//                 onChange={(e) => {
+//                     setName(e.target.value);
+//                     console.log("Name:", e.target.value);
+//                 }}
+//             />
+
+//             <input
+//                 className="border border-spacing-0 border-blue-900 w-100"
+//                 type="text"
+//                 placeholder="Enter your message"
+//                 onChange={(e) => {
+//                     setMessage(e.target.value);
+//                     console.log("Message:", e.target.value);
+//                 }}
+//             />
+//             <button
+//                 className="bg-orange-400 rounded-lg p-2 m-5"
+//                 onClick={() => {
+//                     setData({ name, message });
+//                 }}
+//             >
+//                 Submit
+//             </button>
+
+//             {/* Display the data after submission */}
+//             <p>Submitted Data: {JSON.stringify(data)}</p>
+//         </>
+//     );
+// };
+
+// export default CommentComponent;
